@@ -1,0 +1,5 @@
+unit,value_2023,value_2026,change,tool
+identified event (first paid tier),$0.00031,$0.000198,-36%,PostHog
+storage per TB-month,$35.33,$25.30,-28%,ClickHouse
+compute per unit-hour,$0.2160,$0.2181,~flat,ClickHouse
+seat cap per user-month,$20,$15,-25%,Appsmith
