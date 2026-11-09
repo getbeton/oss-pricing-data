@@ -1,10 +1,14 @@
 # Open-source pricing data
 
+> [!NOTE]
+> Beton is not in active development. The code stays public under its license. The team does not review new issues or pull requests.
+> The team now builds [Sell to State](https://www.selltostate.com/?utm_source=github&utm_medium=referral&utm_campaign=beton-repos&utm_content=oss-pricing-data): government tenders and contract awards from official sources in 70+ countries.
+
 The raw, verified dataset behind Beton's open-source pricing teardown series —
 **20 commercial open-source tools, priced in 2026 and compared to 2023.**
 
-📊 **Read the analysis →** [Pricing the Open Source Software, Vol 2](https://www.getbeton.ai/blog/commercial-open-source-pricing-2026/)
-🔍 **All 20 individual teardowns →** [getbeton.ai/blog/teardowns](https://www.getbeton.ai/blog/teardowns/)
+Read the analysis: [Pricing the open-source software, Vol 2](https://github.com/getbeton/beton-main-site/blob/master/src/data/blog/commercial-open-source-pricing-2026.md).
+All 20 teardowns: [`beton-main-site/src/data/blog`](https://github.com/getbeton/beton-main-site/tree/master/src/data/blog). Vol 1 (2023): [Learning Late](https://learninglate.substack.com/p/pricing-the-commercial-open-source-software).
 
 Each teardown reads a tool's pricing page line by line, reads its license more
 carefully, and answers one question: is the paid tier worth it, or can you
@@ -49,10 +53,6 @@ freely, even commercially; just credit Beton and link back.
 
 ## About Beton
 
-[Beton](https://www.getbeton.ai/) is open-source revenue intelligence: it detects
-buying signals in your product-usage data (PostHog, Stripe, your warehouse) and
-routes the warmest accounts to sales. Self-hostable — [github.com/getbeton/inspector](https://github.com/getbeton/inspector).
+[Beton](https://github.com/getbeton) is open-source revenue intelligence: it finds buying signals in product usage data and routes the accounts to sales. Code: [getbeton/inspector](https://github.com/getbeton/inspector).
 
----
-
-Found a stale number or an error? [Open an issue](https://github.com/getbeton/oss-pricing-data/issues) or a PR — corrections welcome.
+The dataset is frozen at May 2026.
